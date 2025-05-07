@@ -80,7 +80,7 @@ const Sidebarr = () => {
           <div>
             {keywords.map((keyword, index) => (
               <button
-                key="index"
+                key={index}
                 className="block mb-2 px-4 py-2 w-full text-left border rounded hover:bg-gray-200 hover:text-black"
               >
                 {keyword.toUpperCase()}
